@@ -1,0 +1,20 @@
+$headingColor: #0080FF;
+$fullMaxWidth: 1024px;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: $fullMaxWidth;
+    margin: 0 auto;
+}
+
+main {
+    .heading {
+        color: #fff;
+        background-color: $headingColor;
+        text-transform: uppercase;
+        padding: 35px;
+        text-align: center;
+    }
+}
